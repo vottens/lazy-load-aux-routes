@@ -1,0 +1,19 @@
+<a [routerLink]="['/']">
+  home
+</a>
+&nbsp;
+<a [routerLink]="[{ outlets: { aux: ['aux1'] } }]">
+  aux1 route
+</a>
+&nbsp;
+
+<a [routerLink]="[{ outlets: { aux: ['aux2'] } }]">
+  aux2 route
+</a>
+&nbsp;
+
+<a [routerLink]="[{ outlets: { aux: ['aux3'] } }]">
+  aux3 route
+</a>
+
+<router-outlet name="aux"></router-outlet>

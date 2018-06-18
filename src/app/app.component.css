@@ -1,0 +1,16 @@
+.sidebar {
+  float: left;
+  padding: 20px;
+  display: block;
+  height: 600px;
+  width: 200px;
+  border: 1px solid blue;
+}
+
+main {
+  padding: 20px;
+  height: 600px;
+  width: 600px;
+  float: left;
+  border: 1px solid red;
+}
